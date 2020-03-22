@@ -342,6 +342,8 @@ footer {
     padding: 15px;
 }
 
+/* CONTACT */
+
 .contact {
     padding: 50px 0px;
 }
@@ -369,4 +371,17 @@ footer {
 
 .contact ul li a img {
     margin-right: 25px;
+}
+
+.contact form label {
+    color: #639d1f;
+    font-weight: 700;
+}
+
+.contact form input:active,
+.contact form input:focus,
+.contact form textarea:active,
+.contact form textarea:focus {
+    border-color: #639d1f;
+    box-shadow: 0 0 0 0.2rem rgba(99, 157, 11, 0.2);
 }
