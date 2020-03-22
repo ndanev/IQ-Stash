@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center showcase-text">
-                <h1 class="mb-5">Contact us!</h1>
+                <h1 class="mb-5"><%= data.title %></h1>
             </div>
         </div>
     </div>
@@ -17,17 +17,16 @@
                 <ul>
                     <li>
                         <a href="tel:+381665850792"><img src="./images/phone.svg" alt=""> <span>Cellular: </span>
-                            +381
-                            66 5850792 </a>
+                            <%= data.phone %> </a>
                     </li>
                     <li>
                         <a href="tel:+381669159702"><img src="./images/whatsapp.svg" alt=""> <span>Whatsapp: </span>
-                            +381 66 9159702 </a>
+                            <%= data.whatsapp  %> </a>
                     </li>
                     <li>
                         <a href="mailto:office@iqstash.com"><img src="./images/mail.svg" alt=""> <span>Email:
                             </span>
-                            office@iqstash.com</a>
+                            <%= data.email %></a>
                     </li>
                 </ul>
             </div>

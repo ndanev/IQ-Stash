@@ -1,8 +1,8 @@
 const express = require("express");
+const bodyParser = require("body-parser");
 const app = express();
 
 // setup body-parser
-const bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // setup template engine
@@ -16,7 +16,14 @@ app.get("/", (req, res) => {
 });
 
 app.get("/contact", (req, res) => {
-    res.render("contact");
+    let data = {
+        title: "Contact Us!",
+        email: "office@iqstash.com",
+        phone: "+381 66 585 07 92",
+        whatsapp: "+381 66 9159702"
+    };
+
+    res.render("contact", { data: data });
 });
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
