@@ -150,7 +150,13 @@ header {
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: white !important;
+    color: white;
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: white;
+    background-color: #639d1f;
 }
 
 .hero {
