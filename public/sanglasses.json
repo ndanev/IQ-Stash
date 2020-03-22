@@ -1,0 +1,53 @@
+[
+    {
+        "id": 41,
+        "title": "CALIFORNIA",
+        "img": "images/sunglasses/california0.jpg",
+        "img2": "images/sunglasses/california1.jpg",
+        "desc": "Sunglasses with UV 400 protection Standard: EN1836 Size: 14.5 x 5 x 3 cm Packing: 250/50/1 Print info: 4 x 0.6 cm Recommended print type: pad printing",
+        "ProductID": "1.32.045",
+        "Recommendedprintdimension": "4 x 0.6 cm",
+        "Dimension": "14.5 x 5 x 14 cm",
+        "Standard": "EN 1836",
+        "Package": "250/50/1",
+        "Netweight": "0.0264 kg",
+        "Grossweight": "0.02936 kg",
+        "Transportboxsize": "0.32 x 0.2 x 0.8 m",
+        "Customstariff": "900410910000",
+        "Countryoforigin": "China"
+    },
+    {
+        "id": 42,
+        "title": "COSMO",
+        "img": "images/sunglasses/cosmo0.jpg",
+        "img2": "images/sunglasses/cosmo1.jpg",
+        "desc": "Two tone sunglasses, UV 400 protection Standard: EN1836 Size: 14.5 x 5 x 3 cm Packing: 250/50/1 Print info: 4 x 0.8 cm Recommended print type: pad printing",
+        "ProductID": "1.32.047",
+        "Recommendedprintdimension": "4 x 0.8 cm",
+        "Dimension": "14.5 x 5 x 3 cm",
+        "Standard": "EN 1836",
+        "Package": "250/50/1",
+        "Netweight": "0.028 kg",
+        "Grossweight": "0.03072 kg",
+        "Transportboxsize": "0.32 x 0.2 x 0.8 m",
+        "Customstariff": "900410910000",
+        "Countryoforigin": "China"
+    },
+    {
+        "id": 43,
+        "title": "PIERRE",
+        "img": "images/sunglasses/pierre0.jpg",
+        "img2": "images/sunglasses/pierre1.jpg",
+        "desc": "Sunglasses with UV 400 protection Standard: EN1836 Size: 15 x 5 x 3 cm Packing: 250/50/1 Print info: 4 x 0.8 cm Recommended print type: pad printing",
+        "ProductID": "1.32.048",
+        "Recommendedprintdimension": "3.8 x 0.8 cm",
+        "Dimension": "15 x 5 x 14.7 cm",
+        "Standard": "EN 1836",
+        "Package": "250/50/1",
+        "Netweight": "0.0288 kg",
+        "Grossweight": "0.03176 kg",
+        "Transportboxsize": "0.38 x 0.18 x 0.84 m",
+        "Customstariff": "900410910000",
+        "Countryoforigin": "China"
+    }
+]
