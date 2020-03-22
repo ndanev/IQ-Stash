@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IQ Stash</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="/">IQ Stash</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center showcase-text">
+                    <h1 class="mb-4">We got the good stuff!</h1>
+                    <p>Explore our showcased products below..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-md-2 position-relative">
+                            <div class="nav flex-column nav-pills left-menu" id="v-pills-tab" role="tablist"
+                                aria-orientation="vertical">
+                                <div class="promo">STORAGE</div>
+                                <a class="nav-link active" id="v-pills-stash-tab" data-toggle="pill"
+                                    href="#v-pills-stash" role="tab" aria-controls="v-pills-stash"
+                                    aria-selected="true"><img src="./images/mask.svg" class="mr-2" alt=""> Stash</a>
+                                <div class="promo mb-2">PROMO</div>
+                                <div class="promo-inner">OFFICE
+                                    <!-- <img class="ml-1" src="./images/arrow-down.svg" alt=""> -->
+                                </div>
+                                <!-- Bionotebooks -->
+                                <a class="nav-link" id="v-pills-bionotebooks-tab" data-toggle="pill"
+                                    href="#v-pills-bionotebooks" role="tab" aria-controls="v-pills-bionotebooks"
+                                    aria-selected="true"><img src="./images/notebook.svg" class="mr-2" alt="">
+                                    Biodegradable notebooks</a>
+                                <!-- Pencils -->
+                                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill"
+                                    href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                                    aria-selected="false"><img src="./images/pens.svg" class="mr-2" alt="">
+                                    Biodegradable pens</a>
+                                <!-- Bags -->
+                                <a class="nav-link" id="v-pills-bags-tab" data-toggle="pill" href="#v-pills-bags"
+                                    role="tab" aria-controls="v-pills-bags" aria-selected="false"><img
+                                        src="./images/bags.svg" class="mr-2" alt="">
+                                    Paper bags</a>
+                                <!-- Stuff -->
+                                <a class="nav-link" id="v-pills-stuff-tab" data-toggle="pill" href="#v-pills-stuff"
+                                    role="tab" aria-controls="v-pills-stuff" aria-selected="false"><img
+                                        src="./images/other.svg" class="mr-2" alt="">
+                                    Other</a>
+                                <div class="promo-inner">TECH
+                                    <!-- <img class="ml-1" src="./images/arrow-down.svg" alt=""> -->
+                                </div>
+                                <!-- Technology -->
+                                <a class="nav-link" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                                    role="tab" aria-controls="v-pills-home" aria-selected="true"><img
+                                        src="./images/mobile.svg" class="mr-2" alt=""> Phone Gadgets</a>
+                                <a class="nav-link" id="v-pills-pc-tab" data-toggle="pill" href="#v-pills-pc" role="tab"
+                                    aria-controls="v-pills-pc" aria-selected="true"><img src="./images/tech-icon.svg"
+                                        class="mr-2" alt=""> PC Gadgets</a>
+                                <div class="promo-inner">ACCESSORIES
+                                    <!-- <img class="ml-1" src="./images/arrow-down.svg" alt=""> -->
+                                </div>
+                                <!-- Antistess -->
+                                <a class="nav-link" id="v-pills-antistess-tab" data-toggle="pill"
+                                    href="#v-pills-antistess" role="tab" aria-controls="v-pills-antistess"
+                                    aria-selected="true"><img src="./images/heart.svg" class="mr-2" alt="">
+                                    Antistress</a>
+                                <!-- Biobags -->
+                                <a class="nav-link" id="v-pills-biobags-tab" data-toggle="pill" href="#v-pills-biobags"
+                                    role="tab" aria-controls="v-pills-biobags" aria-selected="true"><img
+                                        src="./images/biobags.svg" class="mr-2" alt="">
+                                    Biodegradable bags</a>
+                                <!-- Keychains -->
+                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                                    role="tab" aria-controls="v-pills-profile" aria-selected="false"><img
+                                        src="./images/keychains.svg" class="mr-2" alt=""> Keychains</a>
+                                <!-- Sanglasses -->
+                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill"
+                                    href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                    aria-selected="false"><img src="./images/sanglasses.svg" class="mr-2" alt="">
+                                    Sunglasses</a>
+                                <!-- Lighters -->
+                                <a class="nav-link" id="v-pills-lighter-tab" data-toggle="pill" href="#v-pills-lighter"
+                                    role="tab" aria-controls="v-pills-lighter" aria-selected="false"><img
+                                        src="./images/lighters.svg" class="mr-2" alt="">
+                                    Lighters</a>
+                                <!-- Wallets -->
+                                <a class="nav-link" id="v-pills-wallets-tab" data-toggle="pill" href="#v-pills-wallets"
+                                    role="tab" aria-controls="v-pills-wallets" aria-selected="false"><img
+                                        src="./images/wallets.svg" class="mr-2" alt="">
+                                    Wallets</a>
+                                <div class="promo-inner">APPAREL
+                                    <!-- <img class="ml-1" src="./images/arrow-down.svg" alt=""> -->
+                                </div>
+                                <!-- T-shirts -->
+                                <a class="nav-link" id="v-pills-textile-tab" data-toggle="pill" href="#v-pills-textile"
+                                    role="tab" aria-controls="v-pills-textile" aria-selected="false"><img
+                                        src="./images/tshirt.svg" class="mr-2" alt="">
+                                    T-shirts</a>
+                                <!-- Caps'n'hats -->
+                                <a class="nav-link" id="v-pills-clothes-tab" data-toggle="pill" href="#v-pills-clothes"
+                                    role="tab" aria-controls="v-pills-clothes" aria-selected="false"><img
+                                        src="./images/hat.svg" class="mr-2" alt="">
+                                    Caps'n'hats</a>
+                                <!-- Winter gear -->
+                                <a class="nav-link" id="v-pills-wintergear-tab" data-toggle="pill"
+                                    href="#v-pills-wintergear" role="tab" aria-controls="v-pills-wintergear"
+                                    aria-selected="false"><img src="./images/winter.svg" class="mr-2" alt="">
+                                    Winter gear</a>
+                                <div class="promo-inner">KITCHEN SETS
+                                    <!-- <img class="ml-1" src="./images/arrow-down.svg" alt=""> -->
+                                </div>
+                                <!-- House sets -->
+                                <a class="nav-link" id="v-pills-set-tab" data-toggle="pill" href="#v-pills-set"
+                                    role="tab" aria-controls="v-pills-set" aria-selected="false"><img
+                                        src="./images/set.svg" class="mr-2" alt="">
+                                    Kitchen stuff</a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-10">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-stash" role="tabpanel"
+                                    aria-labelledby="v-pills-stash-tab">
+                                    <div class="row" id="stash"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-antistess" role="tabpanel"
+                                    aria-labelledby="v-pills-antistess-tab">
+                                    <div class="row" id="antistess"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-biobags" role="tabpanel"
+                                    aria-labelledby="v-pills-biobags-tab">
+                                    <div class="row" id="biobags"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-bionotebooks" role="tabpanel"
+                                    aria-labelledby="v-pills-bionotebooks-tab">
+                                    <div class="row" id="bionotebooks"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-home" role="tabpanel"
+                                    aria-labelledby="v-pills-home-tab">
+                                    <div class="row" id="tech"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-pc" role="tabpanel"
+                                    aria-labelledby="v-pills-pc-tab">
+                                    <div class="row" id="pc"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                    aria-labelledby="v-pills-profile-tab">
+                                    <div class="row" id="keychaines"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                                    aria-labelledby="v-pills-messages-tab">
+                                    <div class="row" id="beauty"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                                    aria-labelledby="v-pills-settings-tab">
+                                    <div class="row" id="pencils"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-bags" role="tabpanel"
+                                    aria-labelledby="v-pills-bags-tab">
+                                    <div class="row" id="bags"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-lighter" role="tabpanel"
+                                    aria-labelledby="v-pills-lighter-tab">
+                                    <div class="row" id="lighter"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-set" role="tabpanel"
+                                    aria-labelledby="v-pills-set-tab">
+                                    <div class="row" id="house-sets"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-textile" role="tabpanel"
+                                    aria-labelledby="v-pills-textile-tab">
+                                    <div class="row" id="textiles"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-clothes" role="tabpanel"
+                                    aria-labelledby="v-pills-clothes-tab">
+                                    <div class="row" id="clothes"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-stuff" role="tabpanel"
+                                    aria-labelledby="v-pills-stuff-tab">
+                                    <div class="row" id="stuff"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-wallets" role="tabpanel"
+                                    aria-labelledby="v-pills-wallets-tab">
+                                    <div class="row" id="wallets"></div>
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-wintergear" role="tabpanel"
+                                    aria-labelledby="v-pills-wintergear-tab">
+                                    <div class="row" id="wintergear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>Copyright 2020 © All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

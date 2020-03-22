@@ -1,0 +1,24 @@
+{
+    "name": "iq-stash",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ndanev/IQ-Stash.git"
+    },
+    "author": "Nemanja Danev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ndanev/IQ-Stash/issues"
+    },
+    "homepage": "https://github.com/ndanev/IQ-Stash#readme",
+    "dependencies": {
+        "ejs": "^3.0.1",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.2"
+    }
+}

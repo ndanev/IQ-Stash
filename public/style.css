@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Acme&display=swap");
+
+:root {
+    --main-color: #000;
+    /* --secondary-color: #00aa55; */
+    --secondary-color: linear-gradient(
+        90deg,
+        rgba(200, 223, 46, 1) 15%,
+        rgba(25, 114, 24, 1) 97%
+    );
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+html {
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+}
+
+.btn-success {
+    background-color: #639d1f;
+    margin-top: 25px;
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+    background-color: #639d1f;
+    border: 1px solid #639d1f;
+}
+
+#carouselExampleControls {
+    height: calc(100vh - 75vh);
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    color: #fff !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.btn-success {
+    padding: 3px 10px;
+    border-radius: 0;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #639d1f;
+    width: 35px;
+    height: 55px;
+}
+
+.carousel-indicators {
+    margin-bottom: 0 !important;
+}
+
+.carousel-indicators li {
+    width: 100% !important;
+    height: auto !important;
+    /* opacity: 1 !important; */
+}
+
+.table td,
+.table th {
+    border-top: 0px !important;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: #ffffff;
+    display: block;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    margin-top: 4px;
+}
+
+.navbar-toggler {
+    border: none;
+    background: transparent !important;
+    margin-right: -10px;
+}
+
+.navbar-toggler .top-bar {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 10% 10%;
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 10% 90%;
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+button.navbar-toggler {
+    border: none;
+    outline: none !important;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+}
+
+header {
+    width: 100%;
+    padding: 0 15px;
+    background-color: var(--main-color);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white !important;
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+}
+
+.hero .hero-buttons h2 {
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 46px;
+}
+
+.products-btn {
+    background-color: var(--secondary-color);
+    margin-right: 5px;
+    transition: all 0.3s;
+}
+
+.products-btn:hover {
+    text-decoration: none;
+    background-color: darkgreen;
+    opacity: 0.9;
+    color: white;
+}
+
+.hero-buttons {
+    margin-top: -200px;
+}
+
+/* SHOWCASE */
+
+.showcase {
+    background-color: #ffffff;
+    background-image: url("../images/green.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    padding: 100px 0px;
+}
+
+.showcase h1 {
+    font-size: 45px;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+/* PRODUCTS */
+
+.promo {
+    padding: 0.5rem 1rem;
+    background: var(--secondary-color);
+    color: #000;
+    font-family: "Poppins";
+    font-weight: 600;
+    /* margin-bottom: 15px; */
+}
+
+.promo-inner {
+    /* color: var(--secondary-color); */
+    color: #639d1f;
+    padding: 0.5rem 1rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    /* background-color: #639d1f; */
+}
+
+.modal-dialog {
+    max-width: 1200px !important;
+}
+
+#tech,
+#keychaines,
+#beauty,
+#pencils,
+#bags,
+#lighter,
+#house-sets,
+#textiles,
+#clothes,
+#antistess,
+#biobags,
+#bionotebooks,
+#pc,
+#stuff,
+#wallets,
+#wintergear,
+#stash {
+    background-color: rgb(247, 247, 247);
+    padding: 50px 50px;
+}
+
+.tech-card {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 25px;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+
+.tech-card .new {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.tech-card .material {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: #ff08e2; */
+    background-color: var(--main-color);
+    color: #fff;
+    line-height: 20px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 0 5px;
+    /* border-radius: 3px; */
+    text-transform: uppercase;
+}
+
+.tech-card .prize {
+    background-color: #fff;
+    color: #000;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tech-card:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tech-card img.small-img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.tech-card img.small-img-modal {
+    width: 200px;
+    height: auto;
+    margin-bottom: 25px;
+}
+
+.tech-card img.main-img {
+    width: 250px;
+}
+
+.left-menu {
+    padding: 15px 0px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.left-menu .nav-link {
+    color: #000;
+    font-weight: 600;
+}
+
+.left-menu .nav-link.active {
+    background-color: transparent !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.showcase-text p {
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+}
+
+.contact {
+    padding: 50px 0px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact ul li {
+    margin-bottom: 25px;
+}
+
+.contact ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    transition: all 0.3s;
+}
+
+.contact ul li a:hover {
+    color: #639d1f;
+}
+
+.contact ul li a img {
+    margin-right: 25px;
+}
